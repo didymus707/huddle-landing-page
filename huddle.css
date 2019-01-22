@@ -1,0 +1,49 @@
+/*.mainHead {
+	display: flex;
+	align-items: center;
+	background-image: url('images/bg-hero-desktop.svg');
+	background-position: center;
+	background-size: cover;
+	justify-content: space-between;
+}
+
+.logo {
+	padding: 50px;
+	justify-content: flex-start;
+}
+
+.btn {
+	width: 150px;
+	border-radius: 30px;
+	justify-content: flex-end;
+}*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	background-image: url('images/bg-hero-desktop.svg');
+	background-position: center;
+	background-size: cover;
+	/*justify-content: center;*/
+}
+
+nav {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: space-between;
+}
+
+.logo {
+	justify-content: flex-start;
+}
+
+.btn {
+	border-radius: 70px;
+	justify-content: flex-end;
+}
