@@ -17,13 +17,18 @@
 	padding: 50px;
 }
 
+.logo {
+	width: 140px;
+}
+
 .btn {
-	width: 200px;
+	width: 160px;
 	padding: 10px;
 	border-radius: 30px;
 	justify-content: flex-end;
 	background-color: white;
 	font-size: 12px;
+	border-style: none;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
