@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*header styles*/
@@ -38,7 +39,7 @@
 }
 /*header style ends*/
 
-/*story-1 styles begins*/
+/*Building the community styles begins*/
 .story-container {
 	width: 100%;
 	display: flex;
@@ -64,7 +65,7 @@
 .story-btn {
 	width: 210px;
 	padding: 19px;
-	background-color: #ff21ff;
+	background-color: #fe52c0;
 	border-radius: 30px;
 	border-style: none;
 	color: #faebd7;
@@ -78,7 +79,9 @@
 .story-illus {
 	width: 100%;
 }
+/*style ends*/
 
+/*Grow together style begins*/
 .story-container-pt2 {
 	margin: 100px 80px 50px 80px;
 	display: flex;
@@ -106,7 +109,9 @@
 .grow {
 	width: 100%;
 }
+/*style ends*/
 
+/*Flowing conversation style begins*/
 .story-container-pt3 {
 	margin: 100px 80px 50px 80px;
 	display: flex;
@@ -133,7 +138,9 @@
 .story-3 {
 	padding-bottom: 20px;
 }
+/*style ends*/
 
+/*Users style begins*/
 .story-container-pt4 {
 	margin: 100px 80px 50px 80px;
 	display: flex;
@@ -159,17 +166,22 @@
 .users {
 	width: 100%;
 }
+/*style ends*/
 
+/*call to action style begins*/
 .cta {
 	width: 60%;
 	display: block;
 	text-align: center;
 	align-items: center;
 	height: auto;
-	padding: 30px;
+	padding: 45px;
 	border-radius: 15px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.14);
 	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	z-index: 5;
 }
 
 .items {
@@ -183,10 +195,101 @@
 }
 
 .action {
-    width: 200px;
+    width: 250px;
     border-radius: 80px;
     border-style: none;
-    background-color: #ff21ff;
+    background-color: #ff3aa4;
     color: #eafcff;
-	padding: 10px 10px;
+	padding: 20px;
 }
+/*style ends*/
+
+/*contact and address style begins */
+.last-container {
+	width: 100%;
+	height: auto;
+	background-color: #00252e; 
+}
+
+.contents {
+	color: #d6d2ce;
+	padding: 200px 100px 100px 100px
+}
+
+.brand-footer {
+	margin: 20px 0 10px 20px;
+}
+
+.brand {
+
+}
+
+svg * {
+	fill: white;
+}
+
+.positioning {
+	display: flex;
+}
+
+.left {
+	width: 50%;
+}
+
+.location {
+	display: flex;
+	margin: 20px;
+}
+
+.location-img {
+	margin-right: 20px;
+}
+
+.p-details {
+	line-height: 1.4;
+}
+
+.contact {
+	display: flex;
+	margin: 20px;
+}
+
+.contact-img {
+	margin-right: 13px;
+}
+
+.mail {
+	display: flex;
+	margin: 20px;
+}
+
+.mail-img {
+	margin-right: 13px;
+}
+
+
+.mid {
+	width: 25%;
+	margin: 20px 40px;
+	line-height: 2;
+}
+
+.mid-r {
+	width: 25%;
+	margin: 20px 0 0 0;
+	line-height: 2;
+}
+
+.social {
+	width: 25%;
+}
+
+.list li {
+	list-style-type: none;
+}
+
+.copy {
+	display: flex;
+    justify-content: flex-end;
+}
+/*style ends*/
