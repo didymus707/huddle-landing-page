@@ -268,7 +268,6 @@ svg * {
 	margin-right: 13px;
 }
 
-
 .mid {
 	width: 25%;
 	margin: 20px 40px;
@@ -283,7 +282,22 @@ svg * {
 
 .social {
 	width: 25%;
-	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.social svg {
+    font-size: 15px;
+}
+
+.insta {
+	width: 1em;
+	text-align: center;
+	border: 4px thin white;
+	border-radius: 50%;
+}
+
+.f-icon {
 	border-radius: 50%;
 }
 
